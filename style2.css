@@ -1,0 +1,36 @@
+body {
+    image
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+}
+.image {
+    display: flex;
+    width: 10%;
+    height: 30%;
+    position: fixed;
+    top: 10%;
+    right: 50%;
+
+}
+
+#countdown {
+    display: flex;
+    font-size: 48px;
+}
+
+#countdown > div {
+    margin: 0 20px;
+}
